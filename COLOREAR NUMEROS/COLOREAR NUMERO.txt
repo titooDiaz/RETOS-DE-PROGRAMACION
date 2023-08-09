@@ -1,0 +1,23 @@
+Hola! Bienvenido a tu reto!
+Deberas hacer un programa que al colocarle un numero, te imprima desde el 0 hasta ese numero si el numero es par o impar.
+si el numero es par debera tomar el color cyan, si es impar el color magenta, aqui esta tu ayuda:
+"""
+from termcolor import colored
+import time
+
+def colorear(numero):
+    colores = ['blue', 'magenta']
+    mensaje = 'x es un numero par'
+    color = colores[0]
+    mensaje_coloreado = colored(mensaje, color)
+    print(mensaje_coloreado)
+    time.sleep(0.1)
+    
+    mensaje = 'x es un numero impar'
+    color = colores[1]
+    mensaje_coloreado = colored(mensaje, color)
+    print(mensaje_coloreado)
+
+numero = 100
+colorear(numero)
+"""

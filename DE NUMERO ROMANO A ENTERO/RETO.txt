@@ -1,0 +1,17 @@
+Hola! Bienvenido a tu reto!
+Deberas hacer un programa en la consola que te convierta numero romanos a numeros arabigos.
+deberas usar menos de 30 lineas de codigo, tu ayuda sera la siguiente:
+"""
+def romano_a_arabigo(romano):
+    numeros_romanos = {
+        'I': 1,
+        'V': 5,
+        'X': 10,
+        'L': 50,
+        'C': 100,
+        'D': 500,
+        'M': 1000,
+    }
+"""
+
+NIVEL: Medio
